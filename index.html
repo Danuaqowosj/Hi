@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Привет на разных языках</title>
+  <style>
+    /* Чёрно-белая тема */
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      transition: all 0.5s ease;
+    }
+
+    h4 {
+      font-size: 30px;
+      color: white;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Кнопка смены темы */
+    .theme-btn {
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      padding: 10px 20px;
+      margin-top: 20px;
+      cursor: pointer;
+      font-size: 18px;
+      transition: all 0.3s ease;
+    }
+
+    .theme-btn:hover {
+      background-color: black;
+      color: white;
+    }
+
+    /* Фиолетовая тема с анимацией */
+    .purple-theme {
+      background-color: #2c003e;
+      color: white;
+      animation: pulse 1.5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% {
+        color: #a500ff;
+      }
+      100% {
+        color: #ff7eff;
+      }
+    }
+
+    /* Стили для текста на кнопке */
+    .purple-theme a {
+      color: #ff7eff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h4>Привет на разных языках</h4>
+  <p>
+    1. Русский – Привет<br>
+    2. Английский – Hello<br>
+    3. Испанский – Hola<br>
+    4. Французский – Bonjour<br>
+    5. Немецкий – Hallo<br>
+    6. Итальянский – Ciao<br>
+    7. Португальский – Olá<br>
+    8. Китайский (мандарин) – 你好 (Nǐ hǎo)<br>
+    9. Японский – こんにちは (Konnichiwa)<br>
+    10. Корейский – 안녕하세요 (Annyeonghaseyo)<br>
+    11. Арабский – مرحبا (Marhaba)<br>
+    12. Греческий – Γεια σας (Yia sas)<br>
+    13. Турецкий – Merhaba<br>
+    14. Голландский – Hallo<br>
+    15. Шведский – Hej<br>
+    16. Польский – Cześć<br>
+    17. Украинский – Привіт (Pryvit)<br>
+    18. Чешский – Ahoj<br>
+    19. Хинди – नमस्ते (Namaste)<br>
+    20. Тайский – สวัสดี (S̄wạs̄dī)<br>
+    21. Иврит – שלום (Shalom)<br>
+    22. Бенгали – হ্যালো (Hyālō)<br>
+    23. Вьетнамский – Xin chào<br>
+    24. Персидский – سلام (Salam)<br>
+    25. Шотландский гэльский – Halò<br>
+    26. Румынский – Salut<br>
+    27. Венгерский – Helló<br>
+    28. Филиппинский (Тагалог) – Kamusta<br>
+    29. Индонезийский – Halo<br>
+    30. Малайский – Hai<br>
+    31. Казахский – Сәлеметсіз бе (Sälemetsiz be)<br>
+    32. Тамильский – வணக்கம் (Vanakkam)<br>
+    33. Тамильский (Шри-Ланка) – හෙලෝ (Hello)<br>
+    34. Монголский – Сайн уу (Sain uu)<br>
+    35. Белорусский – Прывітанне (Pryvitannie)<br>
+    36. Латвийский – Sveiki<br>
+    37. Литовский – Sveiki<br>
+    38. Сербский – Здраво (Zdravo)<br>
+    39. Хорватский – Bok<br>
+    40. Болгарский – Здравейте (Zdraveyte)<br>
+    41. Мальтийский – Bongu<br>
+    42. Шведский – Hej<br>
+    43. Финский – Hei<br>
+    44. Эстонский – Tere<br>
+    45. Албанский – Përshëndetje<br>
+    46. Македонский – Здраво (Zdravo)<br>
+    47. Латынь – Salve<br>
+    48. Армянский – Բարև (Barev)<br>
+    49. Грузинский – გამარჯობა (Gamardjoba)<br>
+    50. Исландский – Halló<br>
+  </p>
+
+  <a href="https://thegirl.ru/articles/kak-skazat-privet-i-zdravstvui-na-100-raznykh-yazykakh-mira/">Подробнее</a>
+
+  <!-- Кнопка смены темы -->
+  <button class="theme-btn" onclick="changeTheme()">Сменить тему</button>
+
+  <script>
+    // Функция для смены темы
+    function changeTheme() {
+      document.body.classList.toggle('purple-theme');
+    }
+  </script>
+</body>
+</html>
